@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
-import Layout from "../../components/Layout";
+import Layout from "../../Components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../components/date";
+import Date from "../../Components/date";
 import utilStyles from "../../styles/utils.module.css";
 
 export async function getStaticProps({ params }) {
