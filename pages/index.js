@@ -3,7 +3,7 @@ import Layout, { siteTitle } from "../Components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
-import Date from "../Components/date";
+import Date from "../Components/Date";
 
 export async function getStaticProps() {
   // Static site generation (at build time) example
