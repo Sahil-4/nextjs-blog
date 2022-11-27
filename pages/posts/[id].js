@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
-import Layout from "../../Components/layout";
-import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../Components/Date";
+import Layout from "/vercel/path0/Components/layout";
+import { getAllPostIds, getPostData } from "/vercel/path0/lib/posts";
+import Date from "/vercel/path0/Components/Date";
 import utilStyles from "../../styles/utils.module.css";
 
 export async function getStaticProps({ params }) {

@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../Components/layout";
-import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
+import Layout, { siteTitle } from "/vercel/path0/Components/layout";
+import utilStyles from "/vercel/path0/styles/utils.module.css";
+import { getSortedPostsData } from "/vercel/path0/lib/posts";
 import Link from "next/link";
-import Date from "../Components/Date";
+import Date from "/vercel/path0/Components/Date";
 
 export async function getStaticProps() {
   // Static site generation (at build time) example
